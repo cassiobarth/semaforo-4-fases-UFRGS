@@ -222,15 +222,15 @@ void processarSerial() {
 
   int novaFase = -1;
   switch (c) {
-    // N ou S: força NS vermelho → vai para fase LO verde (2)
+    // N ou S: ativa NS verde (fase 0)
     case 'N': case 'n':
     case 'S': case 's':
-      novaFase = 2;
+      novaFase = 0;
       break;
-    // L ou O: força LO vermelho → vai para fase NS verde (0)
+    // L ou O: ativa LO verde (fase 2)
     case 'L': case 'l':
     case 'O': case 'o':
-      novaFase = 0;
+      novaFase = 2;
       break;
     default:
       return;
