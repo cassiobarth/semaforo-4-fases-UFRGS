@@ -8,6 +8,10 @@ Prof. Dr. Renato Ventura Bayan Henriques
 Controle de semáforo com 4 vias (N/S/L/O), LEDs de pedestre,
 botões com interrupção e debounce, fase amarela e rotina de travessia.
 
+## Simulação online
+Você pode testar o funcionamento do código e a montagem do circuito diretamente no simulador Wokwi através deste link:
+https://wokwi.com/projects/460580681039618049
+
 ## Hardware
 - Arduino Mega 2560
 - 4 semáforos de carros (cátodo comum)
